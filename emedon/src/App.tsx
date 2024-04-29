@@ -1,6 +1,9 @@
+import  {Header} from './components/Header';
+import  Hero from './components/Hero';
+import  Footer from './components/Footer'
 
-import { Header, Footer } from './components'
 import './App.css'
+
 
 function App() {
 
@@ -8,7 +11,10 @@ function App() {
   return (
     <div>
       <Header />
+      <Hero />
       <Footer />
+      
+    
     </div>
   )
 }
